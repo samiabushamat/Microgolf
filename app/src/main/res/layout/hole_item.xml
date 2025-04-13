@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/holeNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hole"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp" />
+
+    <View
+        android:id="@+id/holeView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hole_circle" />
+
+</LinearLayout>
