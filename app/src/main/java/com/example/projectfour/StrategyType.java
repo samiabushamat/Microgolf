@@ -1,5 +1,7 @@
 package com.example.projectfour;
 
 public enum StrategyType {
-    AGGRESSIVE, DEFENSIVE
+    //Aggressive strategy focuses
+    AGGRESSIVE,
+    DEFENSIVE;
 }
